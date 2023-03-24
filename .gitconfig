@@ -5,7 +5,7 @@
 co = checkout
 st = status
 root = rev-parse --show-toplevel
-tree =  lock --oneline --all --graph
+tree = log --oneline --all --graph
 
 [push]
     default = current
