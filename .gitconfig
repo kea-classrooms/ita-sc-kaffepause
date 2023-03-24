@@ -1,10 +1,11 @@
-# git config --add include.path ../.github/template/gitconfig
+# git config --add include.path ../.gitconfig
 # git config --add include.path ../.github/template/gitconfig
 
 [alias]
 co = checkout
 st = status
 root = rev-parse --show-toplevel
+tree =  lock --oneline --all --graph
 
 [push]
     default = current
