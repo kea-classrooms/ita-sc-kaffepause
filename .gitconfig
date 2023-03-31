@@ -6,5 +6,6 @@ st = status
 root = rev-parse --show-toplevel
 tree = log --oneline --all --graph
 undo = revert
+mergetest = git config --file $(git root)/.gitconfig alias.mergetest '!f(){ git merge --no-commit --no-ff "$1"; git merge --abort; echo "Merge aborted"; };f '
 [push]
     default = current
