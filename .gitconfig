@@ -1,5 +1,4 @@
 # git config --add include.path ../.gitconfig
-# git config --add include.path ../.github/template/gitconfig
 
 [alias]
 co = checkout
